@@ -59,10 +59,7 @@ div.lesson_link {
   float: right;
 }
 
-div.text_area {
-  display: flex;
-  align-items: center;
-}
+
 
 div.lesson_text {
   white-space: pre;
