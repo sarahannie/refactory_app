@@ -1,4 +1,9 @@
 /** @type {import('tailwindcss').Config} */
+
+//add neccessary font in globalstyled.css which is import in main file
+//globalStyle.css
+
+
 module.exports = {
   content: ["./src/**/*.{html,js}"],
   theme: {
@@ -10,7 +15,14 @@ module.exports = {
       xl: '1280px',
       '2xl': '1536px',
     },
-    extend: {},
+    extend: {
+      fontFamily: {
+        Montserrat: ['Montserrat', 'sans-serif'],
+        Raleway: ['Raleway', 'sans-serif'],
+        Lato:['Lato','sans-serif'],
+        Poppin:['Poppin', 'sans-serif']
+      }, //end of fontFamily
+    },
   },
   plugins: [],
 }

@@ -1,0 +1,77 @@
+#chart {
+  max-width: 650px;
+  margin: 35px auto;
+}
+
+.apexcharts-tooltip:not(:empty) {
+  padding: 6px 9px;
+}
+
+/* chart end */
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 70% 30%;
+}
+.grid-item-70 {
+  grid-column: 1 / 2;
+}
+.grid-item-30 {
+  grid-column: 2 / 3;
+}
+
+progress {
+	display:block;
+	width:30%;
+	height:5px;
+	padding:15px 0 0 0;
+	margin:0;
+	background:none;
+	border: 0;
+	border-radius:50px;
+	text-align: left;
+	position:relative;
+    font-family:"Helvetica Neue", arial, sans-serif;
+    font-size:15px;
+}
+progress::-webkit-progress-bar {
+	height:5px;
+	width:80%;
+	margin:0 auto;
+	background-color:#dadada;
+	border-radius:100px;
+}
+progress::-webkit-progress-value {
+	display:inline-block;
+	/* float:left; */
+	height:5px;
+	margin:0px -10px 0 0;
+    padding-left:50px; /* Rounded corners requires a padding */
+	background:#4390d3;
+	border-radius:100px
+}
+
+button {
+  align-items: center;
+}
+
+div.lesson_link {
+  float: right;
+}
+
+div.text_area {
+  display: flex;
+  align-items: center;
+}
+
+div.lesson_text {
+  white-space: pre;
+}
+
+div.lesson_img {
+  height: 200px;
+}
+
+div.lesson_img > img {
+  height: 70%;
+}

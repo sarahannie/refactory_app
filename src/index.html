@@ -5,14 +5,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link href="/dist/output.css" rel="stylesheet" />
     <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.6.2/flowbite.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/apexcharts"></script>
     <link
       href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.6.2/flowbite.min.css"
       rel="stylesheet"
     />
+    <link rel="stylesheet" href="index.css" />
     <script
       src="https://kit.fontawesome.com/494d29de48.js"
       crossorigin="anonymous"
     ></script>
+    <!-- Google style sheet start -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,800&display=swap" rel="stylesheet">
+    <!-- Google style sheet end -->
     <title>Document</title>
   </head>
   <body>
@@ -192,10 +199,125 @@
       </div>
     </header>
 
-        <footer aria-label="Site Footer" class="bg-white mt-6  flex flex-wrap justify-content-between">
+
+    <main class="mt-5 mb-5 ml-5 mr-5">
+      <div class="grid-container">
+        <div class="grid-item-70">
+          <!-- header container -->
+          <div class="border rounded-sm grid grid-cols-3 height-auto mt-8 py-12 px-26 shadow-lg">
+            <div class="flex grap-2 justify-center">
+              <img
+                        class="w-16 h-16 rounded-full"
+                      src="./image/user.jpg"
+                        alt="profile picture"
+                />
+              <div >
+                <p>CSE01 <br> Ndiane...</p>
+                <p>Lv.1</p>
+              </div>
+            </div>
+            <div class="justify-center">
+              <p class="flex justify-center "><img src="./image/lesson.svg"><span class="text-[21px] text-bold">37</span></p>
+              <p class="flex justify-center">Exercises Cleared</p>
+            </div>
+            <div class="justify-center">
+              <p class="flex justify-center"><img src="./image/mendal.svg"><span class="text-[21px] text-bold">2</span></p>
+              <p class="flex justify-center">Lessons Completed</p>
+            </div>
+          </div>
+          <!-- /header container -->
+          <!--  continue learing start-->
+          <div class=" flex pt-12 "><img src="./image/lesson.svg">Continue Learning</div>
+          <div class="border rounded-sm grid grid-cols-2 height-auto mt-8 py-12 px-26 shadow-lg">
+            <div class="pl-3">
+              <img src="./image/top_image.svg" width="70%" >
+            </div>
+            <div>
+              <div class="flex justify-center underline text-underline-offset-[20px] ">
+                <img src="./image/skill.svg">
+                <p class="text-[23px] text-bold font-lato text-gray-700">Web Development Course (Node.js)</p>
+              </div>
+              <div class="mt-5 ml-8">
+                <h3 class="pt-5 font-lato text-[25px] text-gray-700 "><span>study </span> <span>HTML &amp; CSS II</h3>
+                <p class="flex py-7 font-lato text-gray-400"><progress value="43" max="100"></progress>5/18 pages</p>
+                <p class="font-lato text-gray-400">The Basic Layout</p>
+              </div>
+              <div class="pl-24 pt-5 font-lato">
+                <button class="bg-gray-200 hover:bg-gray-500 hover:text-white text-black font-bold py-2 px-4 rounded ">
+                  See course details
+                </button>
+                <button class="bg-[#30c8d6] hover:bg-[#bedee1] text-white font-bold py-2 px-12 rounded">
+                  Resume
+                </button> 
+              </div>
+            </div>
+          </div>
+          <!--  continue learing end-->
+
+           <!-- Lesson in prograss start -->
+           <div class=" flex pt-12 "><img src="./image/lesson.svg">Lessons in Prograss</div>
+           <div class="flex">
+             <button class="bg-gray-200 text-white font- py-1 px-5 rounded-full    flex justify-center ">
+             <div>
+              <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="16px" height="10px" viewBox="0 0 16 13" version="1.1" class="injected-svg" style="width:16px;height:10px" data-src="https://prog-8.com/assets/packs/dist/images/web_button_icon-9b1cbc6fa74611eec994..svg">
+                <!-- Generator: Sketch 52 (66869) - http://www.bohemiancoding.com/sketch -->
+                <title>browser-window-1733_2f0847dd-95d4-4b64-87d3-26559782e9fe 2</title>
+                <desc>Created with Sketch.</desc>
+                <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round">
+                    <g id="browser-window-1733_2f0847dd-95d4-4b64-87d3-26559782e9fe-2" transform="translate(1.000000, 1.000000)" stroke="#2B546A">
+                        <g id="browser-window-1733_2f0847dd-95d4-4b64-87d3-26559782e9fe">
+                            <path d="M0,2.75 L0,10 C6.76353751e-17,10.5522847 0.44771525,11 1,11 L13,11 C13.5522847,11 14,10.5522847 14,10 L14,2.75 L0,2.75 Z M1,0 L13,0 C13.5522847,-1.01453063e-16 14,0.44771525 14,1 L14,2.75 L0,2.75 L0,1 C-6.76353751e-17,0.44771525 0.44771525,1.01453063e-16 1,0 Z" id="Shape" stroke-linejoin="round"></path>
+                            <path d="M1.5,1.4 L4.5,1.4" id="Line" stroke-width="0.8"></path>
+                        </g>
+                    </g>
+                </g>
+            </svg>
+          </div>
+             <p class="text-gray-400">&nbsp;Web</p>
+             </button>
+             <button class="bg-white border text-white font- py-1 px-5 mx-2 rounded-full flex justify-center">
+              <div>
+                <svg xmlns="http://www.w3.org/2000/svg" width="18" height="12" viewBox="0 0 18 12" class="injected-svg" style="width:16px;height:10px" data-src="https://prog-8.com/assets/packs/dist/images/mobile_button_icon-81b5ae55344f19e58286..svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                  <g transform="rotate(-90 6 5)" stroke="#6F8FA3" fill="none" fill-rule="evenodd" opacity=".7" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M0 15.2a.8.8 0 0 0 .8.8h8a.8.8 0 0 0 .8-.8v-2.4H0v2.4zM9.6.8a.8.8 0 0 0-.8-.8h-8a.8.8 0 0 0-.8.8v1.333h9.6V.8zm0 12V2.133 12.8zM0 2.133V12.8 2.133z"></path>
+                    <circle stroke-width=".5" cx="4.8" cy="14.4" r="1"></circle>
+                  </g>
+                </svg>
+              </div>
+              <p class="text-gray-400">&nbsp;App</p>
+             </button>
+           </div>
+
+           <div class="working_lesson_dashboard">
+            <div class="lesson_link">
+              <a href="#"><p class="link">View all&nbsp;></p></a>
+            </div>
+            <div class="text_area">
+              <div class="lesson_text">
+                <p class="text">
+                  You are not working on any web lessons.
+                </p>
+              </div>
+              <div class="lesson_img">
+                <img src="./image/no-in-progress-lessons-5ea0fc13ca0cfaf3e019..png" alt="png image">
+              </div>
+            </div>
+           </div>
+           <!-- Lesson in prograss end -->
+        </div>
+        <div class="grid-item-30">
+          <div class="justify-between" id="chart"></div>
+        </div>
+        
+      </div>
+    </main>
+    
+    
+    
+    <footer aria-label="Site Footer" class="bg-white mt-6  flex flex-wrap justify-content-between">
             <div class="mx-auto max-w-screen-xl px-4 pt-16 pb-6 sm:px-6 lg:px-8 lg:pt-24">
               <div class="grid grid-cols-1 gap-8 lg:grid-cols-2">
-                <div class="md:width-1/2 justify-start">
+                <div class="md:width-1/2 justify-between">
                   <div class="flex justify-center text-teal-600 sm:justify-start">
                     <a href="#" class="flex">
                       <img src="/src/image/icons8-r-100.png" width="50px" alt="logo" />
@@ -495,11 +617,15 @@
                   </p>
           
                   <p class="mt-4 text-sm text-gray-500 sm:order-first sm:mt-0">
-                    &copy; 2022 Rafractory
+                    &copy; 2022 Refractory
                   </p>
                 </div>
               </div>
             </div>
-          </footer>
+    </footer>
+
+
+
+   <script src="index.js"></script>
   </body>
 </html>
